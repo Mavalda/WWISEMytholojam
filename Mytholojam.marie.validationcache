@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="80">
+	<ValidationCacheItem File="D:\Mytholojam\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3237998978" DateHigh="30631249"/>
+	<ValidationCacheItem File="D:\Mytholojam\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3726348625" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3726609314" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Attenuations\Default Work Unit.wwu" DateLow="3236106754" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Audio Devices\Default Work Unit.wwu" DateLow="3236116798" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Control Surface Sessions\Default Work Unit.wwu" DateLow="3236056655" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Conversion Settings\Default Work Unit.wwu" DateLow="3236026554" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3726173171" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3235906234" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Default Work Unit.wwu" DateLow="3235645528" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory Auro Headphone.wwu" DateLow="3435641080" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory Effects.wwu" DateLow="3726208252" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Box Modeler.wwu" DateLow="3866886703" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Delay.wwu" DateLow="3866986965" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Dynamics.wwu" DateLow="3866986965" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Filters.wwu" DateLow="3867022058" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="3867062161" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3867087249" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3867117311" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Effects\Factory McDSP Effects.wwu" DateLow="3725120350" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Events\Default Work Unit.wwu" DateLow="3235374821" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Game Parameters\Default Work Unit.wwu" DateLow="3235455085" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3726433852" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3235755830" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3235475092" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Mixing Sessions\Default Work Unit.wwu" DateLow="3236086705" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Modulators\Default Work Unit.wwu" DateLow="3235986435" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Mytholojam.marie.wsettings" DateLow="3443985113" DateHigh="30631622"/>
+	<ValidationCacheItem File="D:\Mytholojam\Mytholojam.wproj" DateLow="3235334727" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Presets\Default Work Unit.wwu" DateLow="3235665586" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Queries\Default Work Unit.wwu" DateLow="3235715715" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Queries\Factory Queries.wwu" DateLow="3726258385" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\Mytholojam\SoundBanks\Default Work Unit.wwu" DateLow="3235735789" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3235685647" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\States\Default Work Unit.wwu" DateLow="3235434977" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Switches\Default Work Unit.wwu" DateLow="3235394870" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Triggers\Default Work Unit.wwu" DateLow="3236006492" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Virtual Acoustics\Default Work Unit.wwu" DateLow="3236066661" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\Mytholojam\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="3764823262" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1337679187" DateHigh="30632882"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3726348625" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3726609314" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Attenuations\Default Work Unit.wwu" DateLow="3236106754" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Audio Devices\Default Work Unit.wwu" DateLow="3236116798" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Control Surface Sessions\Default Work Unit.wwu" DateLow="3236056655" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Conversion Settings\Default Work Unit.wwu" DateLow="3236026554" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3726173171" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Dynamic Dialogue\Default Work Unit.wwu" DateLow="3235906234" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Default Work Unit.wwu" DateLow="3235645528" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory Auro Headphone.wwu" DateLow="3435641080" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory Effects.wwu" DateLow="3726208252" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Box Modeler.wwu" DateLow="3866886703" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Delay.wwu" DateLow="3866986965" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Dynamics.wwu" DateLow="3866986965" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Filters.wwu" DateLow="3867022058" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="3867062161" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3867087249" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3867117311" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Effects\Factory McDSP Effects.wwu" DateLow="3725120350" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Events\Default Work Unit.wwu" DateLow="3235374821" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Game Parameters\Default Work Unit.wwu" DateLow="3235455085" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3726433852" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3235755830" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3235475092" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Mixing Sessions\Default Work Unit.wwu" DateLow="3236086705" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Modulators\Default Work Unit.wwu" DateLow="3235986435" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Mytholojam.marie.wsettings" DateLow="1362370022" DateHigh="30632882"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Mytholojam.wproj" DateLow="3235334727" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Presets\Default Work Unit.wwu" DateLow="3235665586" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Queries\Default Work Unit.wwu" DateLow="3235715715" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Queries\Factory Queries.wwu" DateLow="3726258385" DateHigh="30627156"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\SoundBanks\Default Work Unit.wwu" DateLow="3235735789" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Soundcaster Sessions\Default Work Unit.wwu" DateLow="3235685647" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\States\Default Work Unit.wwu" DateLow="3235434977" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Switches\Default Work Unit.wwu" DateLow="3235394870" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Triggers\Default Work Unit.wwu" DateLow="3236006492" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Virtual Acoustics\Default Work Unit.wwu" DateLow="3236066661" DateHigh="30631205"/>
+	<ValidationCacheItem File="D:\WWISEMytholojam\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="3764823262" DateHigh="30627156"/>
+</ValidationCache>
