@@ -1,6 +1,359 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{072B29D1-F549-4056-9BAF-2E74807AD7AD}" SchemaVersion="80">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{072B29D1-F549-4056-9BAF-2E74807AD7AD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{072B29D1-F549-4056-9BAF-2E74807AD7AD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Foot_Player" ID="{1EE06384-0D10-43CB-8AB9-CEB0354F1F91}">
+					<ChildrenList>
+						<Action Name="" ID="{FD88372F-8F77-4604-B3A8-2D9EA17F0F9D}" ShortID="118704367">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footstep" ID="{61EB730D-0EB4-4B4F-8ECA-8722EEF220BA}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music" ID="{D2A127F7-92DC-4262-B025-13BAB60518F3}">
+					<ChildrenList>
+						<Action Name="" ID="{9248D54B-920A-4C30-BC14-9530C5ABA3F9}" ShortID="621008332">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{6F10C643-72F8-4650-8737-465299BBCDA8}" WorkUnitID="{7ED75AB2-09E9-4D1D-A49C-2C9AEA7692C5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cerbere" ID="{25F69B70-E31B-454B-A33B-97ABE40C2F6A}">
+					<ChildrenList>
+						<Action Name="" ID="{D29A428B-FD49-435A-AF7D-07BD0FE612F4}" ShortID="1042864853">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cerbere" ID="{AAFC0143-8AED-4F3E-AAA1-457AC196D0AA}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_CrackTree" ID="{10C751B4-1206-45B3-AA5D-76D0C6F709DC}">
+					<ChildrenList>
+						<Action Name="" ID="{D1640D7E-A855-4DBF-B131-985A56B207CD}" ShortID="194931830">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CrackTree" ID="{DDD355FA-D7C9-4A84-BB6F-51C5A747C095}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RockSlide" ID="{90CF42AB-0A82-43D4-A1A3-EB9B49053E0B}">
+					<ChildrenList>
+						<Action Name="" ID="{85B7AB1A-B1FD-4339-9A0F-935F667ACC50}" ShortID="896068511">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RockSlide" ID="{D5E6B739-C8E6-4B7F-A817-502A8EA15E63}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_environnement_running_stream" ID="{7AF8672B-645F-4E7D-BE48-0C93DA737ACA}">
+					<ChildrenList>
+						<Action Name="" ID="{7D7FA3A6-B389-403E-9289-C5E952B28931}" ShortID="587201311">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="environnement_running_stream" ID="{4B8A43BC-0B2A-48A7-B972-680E1ECAC356}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_environnement_wind_strong" ID="{B6337E07-E47E-439D-AC27-38B1159781DD}">
+					<ChildrenList>
+						<Action Name="" ID="{6441F2E3-33A7-48D3-9371-2DA03E513E68}" ShortID="617750957">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="environnement_wind_strong" ID="{53A721A3-AB7E-45B6-B481-443FF4D90121}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_environnement_wind_weak" ID="{9E36DC09-C7C7-499C-8280-D23871104C66}">
+					<ChildrenList>
+						<Action Name="" ID="{DC893455-FA20-4FB5-9F33-B9AF439E741D}" ShortID="911876309">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="environnement_wind_weak" ID="{8F43CBC2-9036-4D7E-B95F-84627D203027}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_cerberus" ID="{72C9154E-5B9C-401D-B810-0D5E4B97905C}">
+					<ChildrenList>
+						<Action Name="" ID="{9E849008-DD7F-4144-BA78-E910FBB1F7F6}" ShortID="613335586">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_cerberus" ID="{49641EDD-092D-44C9-AD20-E90999666A6C}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_blossoming_tree_1" ID="{C7114B2D-4873-41CB-AC34-A4A827CD6BB6}">
+					<ChildrenList>
+						<Action Name="" ID="{1E6F9868-49CB-43CF-BB7F-D409D6BDE8AA}" ShortID="989423899">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_blossoming_tree_1" ID="{CE5D7EDB-6143-4F77-85B4-E5B4D329C35B}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_blossoming_tree_2" ID="{6ECB6497-A23F-457B-B054-D0342CBA90B2}">
+					<ChildrenList>
+						<Action Name="" ID="{E78F9E7F-3A24-427F-91FD-0D19CC60B4E1}" ShortID="3866384">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_blossoming_tree_2" ID="{3FB18418-E073-4C35-BEE0-51C11313EE1E}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_dead_activated" ID="{9D72985A-B417-4F4F-876B-2711CFB68867}">
+					<ChildrenList>
+						<Action Name="" ID="{F5CBB8A0-D741-4F3C-8C3F-2F79A9D54665}" ShortID="51611869">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_dead_activated" ID="{BC030F18-D66E-4FAE-B960-9E7B720E1B51}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_dead_disactivated" ID="{80FCD36A-A810-438C-86F9-AC13D1D8FAF1}">
+					<ChildrenList>
+						<Action Name="" ID="{05578693-FB23-49D1-AF52-D99A79A5CF98}" ShortID="130056624">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_dead_disactivated" ID="{887096CC-745F-425E-9488-32BC549CB1BF}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_obstacle_door_opens" ID="{9DA8AC64-F4AF-4E7A-BC0A-81AE61635EEE}">
+					<ChildrenList>
+						<Action Name="" ID="{84428943-606A-4C12-A6FF-1FB9D4FA0FD6}" ShortID="236921057">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_obstacle_door_opens" ID="{7C806C2F-ACD2-45FA-9902-7129F66EE8C2}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_pressure" ID="{324C2A7F-A029-4EC7-A511-7B0A71E7D90E}">
+					<ChildrenList>
+						<Action Name="" ID="{E729D454-5E67-4B58-8F15-162F4D5FE802}" ShortID="1040550151">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_pressure" ID="{CEAD73F2-9901-434B-A46A-CFC5B69AF946}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_pressure2" ID="{370DD5DC-41C1-4D72-9B79-EA207DB452A4}">
+					<ChildrenList>
+						<Action Name="" ID="{9554CDC1-834D-4E41-9686-922B1AA2C3E9}" ShortID="201445493">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_pressure2" ID="{F64BDD9F-A61F-49E3-9CC1-991D6C5EFDA5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_statue_crying" ID="{0F58A24C-E429-4C4D-87E3-D3AB46516E96}">
+					<ChildrenList>
+						<Action Name="" ID="{E99EF967-F365-428C-966D-154E9398093F}" ShortID="199908887">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_statue_crying" ID="{BEF67CFA-8AA4-40F0-948B-0D03B9CFCCB5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_stonewall_obstacle" ID="{AF1EA2A7-A455-4D7C-BCA9-B1E9859C8283}">
+					<ChildrenList>
+						<Action Name="" ID="{22A025A3-F28E-4620-90FE-51DFDFE87A42}" ShortID="382534911">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_stonewall_obstacle" ID="{B99DCF6F-2FF5-4767-A4E5-D3B11A4EF872}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_stonewall_obstacle2" ID="{CEE46254-B46B-4C66-941B-5482A5E03422}">
+					<ChildrenList>
+						<Action Name="" ID="{A73D1251-1387-4ABF-B16C-5987BF0D673E}" ShortID="838657847">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_stonewall_obstacle2" ID="{24035192-4EB0-4171-824C-CE136EF68D43}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Enigme_1" ID="{90B1385F-7123-4ABB-8FD9-38E1A6D6B0F6}">
+					<ChildrenList>
+						<Action Name="" ID="{FC80EE6E-EB39-48DB-901E-28429E05F9F5}" ShortID="958793154">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Enigme 1" ID="{BA748B73-0A82-4659-B008-A57C0960DB8C}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sign_singing_mode" ID="{185CC69A-4B7F-4FB4-950B-37C903767416}">
+					<ChildrenList>
+						<Action Name="" ID="{9ABEDE14-3C5F-435B-B035-0D65034939DF}" ShortID="494417496">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sign_singing_mode" ID="{BF0D3E3C-BA87-4992-AD10-D46643823155}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_failed" ID="{964708E3-C84D-4809-AAC8-F36EF0F17533}">
+					<ChildrenList>
+						<Action Name="" ID="{92C19699-600B-4BC6-B035-62F4F1B2DAF4}" ShortID="744907433">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_failed" ID="{F35686D0-DC0F-4133-B437-6379816FEAF8}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_successfull" ID="{2CF3CA21-C10A-4A3E-B72C-20D7BF4ABD45}">
+					<ChildrenList>
+						<Action Name="" ID="{666D19E9-1608-4486-8FE7-05431D7C52D0}" ShortID="313342553">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_successfull" ID="{EAB661AE-BCCB-481E-A089-5B9A89368CF6}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_menu1" ID="{AD40A747-659E-4565-82FF-E0A9973F074A}">
+					<ChildrenList>
+						<Action Name="" ID="{100C8473-76F3-4836-949D-FF6A3283F505}" ShortID="28889436">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_menu1" ID="{CA64B32F-9DB3-490E-9CD7-98C07FDAEEBF}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_menu2" ID="{3457D706-8022-4DDF-8993-CE9F25F66BEE}">
+					<ChildrenList>
+						<Action Name="" ID="{A220D485-C9D8-47F7-8575-548F74662B21}" ShortID="1007541096">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_menu2" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

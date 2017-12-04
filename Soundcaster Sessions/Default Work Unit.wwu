@@ -1,6 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4A795054-5B06-481D-A396-2946196CA5B4}" SchemaVersion="80">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{4A795054-5B06-481D-A396-2946196CA5B4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{4A795054-5B06-481D-A396-2946196CA5B4}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{5FA7A635-8CE0-441B-8FD1-FC4CCC8E53D3}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Cerbere" ID="{AAFC0143-8AED-4F3E-AAA1-457AC196D0AA}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CrackTree" ID="{DDD355FA-D7C9-4A84-BB6F-51C5A747C095}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RockSlide" ID="{D5E6B739-C8E6-4B7F-A817-502A8EA15E63}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="environnement_running_stream" ID="{4B8A43BC-0B2A-48A7-B972-680E1ECAC356}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="environnement_wind_strong" ID="{53A721A3-AB7E-45B6-B481-443FF4D90121}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="environnement_wind_weak" ID="{8F43CBC2-9036-4D7E-B95F-84627D203027}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_cerberus" ID="{49641EDD-092D-44C9-AD20-E90999666A6C}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Footstep" ID="{61EB730D-0EB4-4B4F-8ECA-8722EEF220BA}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_blossoming_tree_1" ID="{CE5D7EDB-6143-4F77-85B4-E5B4D329C35B}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_blossoming_tree_2" ID="{3FB18418-E073-4C35-BEE0-51C11313EE1E}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_dead_activated" ID="{BC030F18-D66E-4FAE-B960-9E7B720E1B51}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_dead_disactivated" ID="{887096CC-745F-425E-9488-32BC549CB1BF}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_obstacle_door_opens" ID="{7C806C2F-ACD2-45FA-9902-7129F66EE8C2}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_pressure2" ID="{F64BDD9F-A61F-49E3-9CC1-991D6C5EFDA5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_statue_crying" ID="{BEF67CFA-8AA4-40F0-948B-0D03B9CFCCB5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_stonewall_obstacle" ID="{B99DCF6F-2FF5-4767-A4E5-D3B11A4EF872}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sign_singing_mode" ID="{BF0D3E3C-BA87-4992-AD10-D46643823155}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_failed" ID="{F35686D0-DC0F-4133-B437-6379816FEAF8}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="sound_successfull" ID="{EAB661AE-BCCB-481E-A089-5B9A89368CF6}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{6F10C643-72F8-4650-8737-465299BBCDA8}" WorkUnitID="{7ED75AB2-09E9-4D1D-A49C-2C9AEA7692C5}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_menu1" ID="{CA64B32F-9DB3-490E-9CD7-98C07FDAEEBF}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_menu2" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Jardin" ID="{D38CD07E-D934-436A-A0C1-8E0DD40E5D53}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Temple" ID="{A5AB60E0-1ED7-40F9-92AE-2341C719B4C6}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
