@@ -62,10 +62,6 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="sound_statue_crying" ID="{BEF67CFA-8AA4-40F0-948B-0D03B9CFCCB5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
-							<Position X="3" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="sound_stonewall_obstacle" ID="{B99DCF6F-2FF5-4767-A4E5-D3B11A4EF872}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 							<Position X="3" Y="2"/>
 						</Module>
@@ -82,16 +78,12 @@
 							<Position X="4" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Music" ID="{6F10C643-72F8-4650-8737-465299BBCDA8}" WorkUnitID="{7ED75AB2-09E9-4D1D-A49C-2C9AEA7692C5}"/>
-							<Position X="4" Y="4"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="UI_menu1" ID="{CA64B32F-9DB3-490E-9CD7-98C07FDAEEBF}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
-							<Position X="5" Y="0"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="UI_menu2" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Music" ID="{6F10C643-72F8-4650-8737-465299BBCDA8}" WorkUnitID="{7ED75AB2-09E9-4D1D-A49C-2C9AEA7692C5}"/>
+							<Position X="5" Y="2"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
@@ -137,10 +129,10 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Jardin" ID="{D38CD07E-D934-436A-A0C1-8E0DD40E5D53}"/>
+						<CurrentStateRef Name="Ruines" ID="{23E6E374-6139-466E-9572-75B519FB35AE}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Temple" ID="{A5AB60E0-1ED7-40F9-92AE-2341C719B4C6}"/>
+						<CurrentSwitchRef Name="Pierre" ID="{988B8FBE-B9D7-4F50-8C50-06FE95B232FE}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
