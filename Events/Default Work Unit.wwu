@@ -199,20 +199,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_sound_pressure" ID="{324C2A7F-A029-4EC7-A511-7B0A71E7D90E}">
-					<ChildrenList>
-						<Action Name="" ID="{E729D454-5E67-4B58-8F15-162F4D5FE802}" ShortID="1040550151">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sound_pressure" ID="{CEAD73F2-9901-434B-A46A-CFC5B69AF946}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_sound_pressure2" ID="{370DD5DC-41C1-4D72-9B79-EA207DB452A4}">
 					<ChildrenList>
 						<Action Name="" ID="{9554CDC1-834D-4E41-9686-922B1AA2C3E9}" ShortID="201445493">
@@ -222,6 +208,16 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sound_pressure2" ID="{F64BDD9F-A61F-49E3-9CC1-991D6C5EFDA5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{274E2099-9CC5-4AE4-A915-B6EA5E23DFC3}" ShortID="1004162991">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_depressure" ID="{378C2833-1659-4C1C-9750-8C25EC1D6D48}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -311,7 +307,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_UI_menu2" ID="{3457D706-8022-4DDF-8993-CE9F25F66BEE}">
+				<Event Name="Play_UI_menu1" ID="{3457D706-8022-4DDF-8993-CE9F25F66BEE}">
 					<ChildrenList>
 						<Action Name="" ID="{A220D485-C9D8-47F7-8575-548F74662B21}" ShortID="1007541096">
 							<PropertyList>
@@ -319,7 +315,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="UI_menu2" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+									<ObjectRef Name="UI_menu1" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -362,6 +358,90 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="environnement_wind_weak" ID="{8F43CBC2-9036-4D7E-B95F-84627D203027}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_statue_crying" ID="{8980CCE3-F520-40E9-8C78-C6D617EAFFA5}">
+					<ChildrenList>
+						<Action Name="" ID="{8DA13D97-7BA1-4D77-8E8A-D5C52633EF7C}" ShortID="201761354">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_statue_crying" ID="{1B1DDA3E-0BD3-4F60-B888-02BFEBD190E8}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UI_menu2" ID="{CBC19DC9-67FD-4D7B-B8A3-E93FEF63DDEF}">
+					<ChildrenList>
+						<Action Name="" ID="{75084768-7202-40C8-9D45-58B4AA1440F6}" ShortID="651622003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_menu2" ID="{03702D6E-0EBB-4CF7-9ACE-6E5FE342615F}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fire" ID="{67A2FE4E-3A65-4182-949F-87F71ED35714}">
+					<ChildrenList>
+						<Action Name="" ID="{90EA6B5F-780F-48C9-B3A8-2F93C6E80F60}" ShortID="460831947">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fire" ID="{A6853310-4D92-4593-9206-97A5A3A15E08}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Fog" ID="{44F68D6C-7A54-4F54-9B5C-00E836B5452B}">
+					<ChildrenList>
+						<Action Name="" ID="{7CFC1002-2E89-492C-B219-A34938D162BD}" ShortID="975681890">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Fog" ID="{5B3ADEAB-E480-4FAA-B49D-4E61C661946F}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_depressure" ID="{E738A69A-91F5-41AB-9F1D-87453674716E}">
+					<ChildrenList>
+						<Action Name="" ID="{2C93AB61-3620-4B8B-B416-A51715E329E4}" ShortID="126394107">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_depressure" ID="{378C2833-1659-4C1C-9750-8C25EC1D6D48}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_sound_pressure" ID="{91DDEEC8-E441-40E0-8929-4568E9EB9ED5}">
+					<ChildrenList>
+						<Action Name="" ID="{6214516F-0252-46FF-87FD-1E0F172B1941}" ShortID="138482850">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="sound_pressure" ID="{B91ED8C5-E8E6-4CB3-96EA-4FCFEF4085F1}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

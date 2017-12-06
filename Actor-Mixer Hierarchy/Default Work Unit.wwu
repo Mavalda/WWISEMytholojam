@@ -39,6 +39,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="note_1_si" ID="{D5E94434-5BB5-4D50-8E22-8EE5B6C3EC4F}" ShortID="1010270109">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.884336890243901"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.951219512195124"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>note_1_si.wav</AudioFile>
 												</AudioFileSource>
@@ -58,6 +62,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="note_2_sol" ID="{50D456A7-24FE-428A-90A8-FF0839231B69}" ShortID="162266856">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.645579268292683"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.813643292682927"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>note_2_sol.wav</AudioFile>
 												</AudioFileSource>
@@ -77,6 +85,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="note_3_mi" ID="{2E6F39C1-DCB7-41C7-AAA4-C99C748BFD00}" ShortID="886004338">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.727134146341466"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.898628048780489"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>note_3_mi.wav</AudioFile>
 												</AudioFileSource>
@@ -86,6 +98,13 @@
 											</ActiveSourceList>
 										</Sound>
 										<Sound Name="note_4_ré" ID="{055CBB65-6840-432F-A3FB-FE64F2D55E71}" ShortID="208355253">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -96,6 +115,10 @@
 											</ReferenceList>
 											<ChildrenList>
 												<AudioFileSource Name="note_4_ré" ID="{87D9A428-D68D-4002-845F-EF4CF017B2D0}" ShortID="1045210382">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.19283536585366"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.41768292682927"/>
+													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>note_4_ré.wav</AudioFile>
 												</AudioFileSource>
@@ -105,6 +128,12 @@
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="note_1_si" ID="{F1DC74B2-9445-4B81-8A25-45E70190CECE}"/>
+										<ItemRef Name="note_2_sol" ID="{7FFAC04C-E4B9-4DE6-A1D7-CB93A59BB39D}"/>
+										<ItemRef Name="note_3_mi" ID="{6B29A076-9AA0-478E-ADF0-1B980FAFCC81}"/>
+										<ItemRef Name="note_4_ré" ID="{055CBB65-6840-432F-A3FB-FE64F2D55E71}"/>
+									</Playlist>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Enigme 1 faux" ID="{5BDBB9F0-16B2-44FF-8787-CBE20D57BAA4}" ShortID="1028350050">
 									<PropertyList>
@@ -119,11 +148,124 @@
 										</Reference>
 									</ReferenceList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="true" ID="{7AC800E4-CA58-4C27-8CE5-47B800C7DBED}" ShortID="708025194">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="note_1_si" ID="{526ED727-5573-49CE-853E-98A8CF6F9317}" ShortID="761657789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="note_1_si" ID="{F14282CB-1FBF-4379-9C10-ED9B51D8E01E}" ShortID="830790261">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.884336890243901"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>note_1_si.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="note_1_si" ID="{F14282CB-1FBF-4379-9C10-ED9B51D8E01E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="note_2_sol" ID="{F234F848-3A93-4F13-9EF0-34429C1B18CC}" ShortID="107173463">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="note_2_sol" ID="{18402944-B545-4575-B24C-A7CBF9758192}" ShortID="466156286">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.645579268292683"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>note_2_sol.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="note_2_sol" ID="{18402944-B545-4575-B24C-A7CBF9758192}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="note_3_mi" ID="{A090DEE5-4D79-4381-9B5D-3C9ADAFFDC23}" ShortID="818844227">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="note_3_mi" ID="{E09BB993-7AD7-469C-A05F-F19B4F1A0822}" ShortID="295873265">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.727134146341466"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>note_3_mi.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="note_3_mi" ID="{E09BB993-7AD7-469C-A05F-F19B4F1A0822}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="note_4_ré" ID="{2AAFDCD9-44AA-4D59-BCE0-B6603E7F47C3}" ShortID="717009109">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="note_4_ré" ID="{113CAAB1-83BF-49A1-B480-4C38F8C7FAC3}" ShortID="151575323">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.19283536585366"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>note_4_ré.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="note_4_ré" ID="{113CAAB1-83BF-49A1-B480-4C38F8C7FAC3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
 								<DefaultSwitchRef Name="" ID="{00000000-0000-0000-0000-000000000000}"/>
 								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="true" ID="{7AC800E4-CA58-4C27-8CE5-47B800C7DBED}"/>
+									</GroupingBehavior>
 									<GroupingBehavior>
 										<ItemRef Name="Enigme 1 faux" ID="{5BDBB9F0-16B2-44FF-8787-CBE20D57BAA4}"/>
 									</GroupingBehavior>
@@ -174,11 +316,6 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>5</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -215,7 +352,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-8</Value>
+										<Value>-13</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -953,25 +1090,6 @@
 								<ActiveSource Name="sound_obstacle_door_opens" ID="{7573B36C-3756-49CC-BFA7-339815AE6E9D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="sound_pressure" ID="{CEAD73F2-9901-434B-A46A-CFC5B69AF946}" ShortID="591663574">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="sound_pressure" ID="{0971AD4D-7CF1-4814-AFB0-F9CB4899F330}" ShortID="523592345">
-									<Language>SFX</Language>
-									<AudioFile>sound_pressure.wav</AudioFile>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="sound_pressure" ID="{0971AD4D-7CF1-4814-AFB0-F9CB4899F330}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
 						<Sound Name="sound_pressure2" ID="{F64BDD9F-A61F-49E3-9CC1-991D6C5EFDA5}" ShortID="840858396">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
@@ -1056,6 +1174,109 @@
 								<ActiveSource Name="sound_stonewall_obstacle2" ID="{5F898973-3FAE-492C-8029-94C339B898A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Fog" ID="{5B3ADEAB-E480-4FAA-B49D-4E61C661946F}" ShortID="1041166242">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2C773FB9-E705-45A9-95C7-82F6DFFD4AB2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fog" ID="{09FB34CA-2EC3-47EF-BD61-390B23A882C3}" ShortID="169280318">
+									<Language>SFX</Language>
+									<AudioFile>Fog.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fog" ID="{09FB34CA-2EC3-47EF-BD61-390B23A882C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sound_statue_crying" ID="{1B1DDA3E-0BD3-4F60-B888-02BFEBD190E8}" ShortID="698179438">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sound_statue_crying2" ID="{4C685611-1B3E-4315-8DBA-977DD52D651C}" ShortID="268803620">
+									<Language>SFX</Language>
+									<AudioFile>sound_statue_crying2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sound_statue_crying2" ID="{4C685611-1B3E-4315-8DBA-977DD52D651C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sound_depressure" ID="{378C2833-1659-4C1C-9750-8C25EC1D6D48}" ShortID="447965940">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sound_depressure" ID="{0E12EC90-2AB9-4698-9DC9-247C4F86F46D}" ShortID="1013329630">
+									<Language>SFX</Language>
+									<AudioFile>sound_depressure.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sound_depressure" ID="{0E12EC90-2AB9-4698-9DC9-247C4F86F46D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="sound_pressure" ID="{B91ED8C5-E8E6-4CB3-96EA-4FCFEF4085F1}" ShortID="376206329">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="sound_pressure" ID="{CBFCFE75-2CBA-4BA7-AB14-5C775264DE43}" ShortID="55384413">
+									<Language>SFX</Language>
+									<AudioFile>sound_pressure.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="sound_pressure" ID="{CBFCFE75-2CBA-4BA7-AB14-5C775264DE43}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Ambiance" ID="{266637CC-0985-4FA9-B4DF-0D5B638DC837}" ShortID="423012452">
@@ -1087,7 +1308,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1208,6 +1429,7 @@
 						</Sound>
 						<RandomSequenceContainer Name="Cerbere" ID="{AAFC0143-8AED-4F3E-AAA1-457AC196D0AA}" ShortID="836696102">
 							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
@@ -1226,6 +1448,18 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="environnement_cerberus1" ID="{362AD82F-8C4B-436B-82CB-CDBB163685B4}" ShortID="840621500">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1245,6 +1479,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_cerberus2" ID="{CC06A78D-2CF0-44F4-8946-DA058C99B5C2}" ShortID="947676905">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1264,6 +1510,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_cerberus3" ID="{6526A043-2E68-4458-AA9C-7E6019B8A624}" ShortID="433364363">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1283,6 +1541,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_cerberus4" ID="{3609CE9D-AFBF-4BCF-B600-F9A656BFE614}" ShortID="705431865">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1301,10 +1571,42 @@
 										<ActiveSource Name="environnement_cerberus4" ID="{986DD882-BB04-4F5F-BD82-EE2F25B9771E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="silence" ID="{F3084C67-74C1-4BBD-B9A6-7BC2AD11CA67}" ShortID="19486977">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>75</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="silence" ID="{9C690179-2DB0-4368-A6EB-5F3096EDCCCC}" ShortID="91593671">
+											<Language>SFX</Language>
+											<AudioFile>silence.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="silence" ID="{9C690179-2DB0-4368-A6EB-5F3096EDCCCC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="CrackTree" ID="{DDD355FA-D7C9-4A84-BB6F-51C5A747C095}" ShortID="812763030">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
@@ -1323,6 +1625,29 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="environnement_garden_1_1" ID="{13C6E597-2C34-4038-BE9A-D200B4A76D07}" ShortID="93896345">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1168F890-B000-474E-977B-05F51BBC8A33}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1342,6 +1667,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_10" ID="{367462E3-46CB-44B4-92F7-CE8BE7E610A0}" ShortID="1043348107">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1361,6 +1693,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_11" ID="{78A877B2-92B0-4694-9208-76DB4A5F8B39}" ShortID="983719191">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1380,6 +1724,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_12" ID="{6CBB98E9-4CC7-499C-BCFC-3378F4061C6C}" ShortID="974142269">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1398,45 +1754,24 @@
 										<ActiveSource Name="environnement_garden_1_12" ID="{74851FFF-746C-47DB-91AC-6F0AB7EA5A90}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="environnement_garden_1_13" ID="{E0252E7C-504B-4867-9F23-6C38399797A4}" ShortID="395439600">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="environnement_garden_1_13" ID="{6E902A2E-D6D0-49B2-9C02-88FA3446B186}" ShortID="522057490">
-											<Language>SFX</Language>
-											<AudioFile>CrackTree\environnement_garden_1.13.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="environnement_garden_1_13" ID="{6E902A2E-D6D0-49B2-9C02-88FA3446B186}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="environnement_garden_1_14" ID="{BD83F229-8DE4-4A5D-BA8F-8048F1857539}" ShortID="866192848">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="environnement_garden_1_14" ID="{F070C8E3-42B5-4D1C-8022-588CA5887719}" ShortID="97220602">
-											<Language>SFX</Language>
-											<AudioFile>CrackTree\environnement_garden_1.14.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="environnement_garden_1_14" ID="{F070C8E3-42B5-4D1C-8022-588CA5887719}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="environnement_garden_1_15" ID="{982CC582-6339-42B1-9F13-A34A52BB927A}" ShortID="894310064">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1456,6 +1791,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_16" ID="{E60DA408-3B0F-4324-A18E-A32B65602563}" ShortID="164805701">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1475,6 +1822,18 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_17" ID="{28049565-4BFE-41C3-B9D3-A96BB8C57333}" ShortID="648184583">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1494,6 +1853,23 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_2" ID="{88CD2D5A-CFE0-46A8-AB55-6DB6A329D6EF}" ShortID="182667132">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6BC21FDD-CC63-420F-A8BC-DDF52AAEA26F}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1512,45 +1888,24 @@
 										<ActiveSource Name="environnement_garden_1_2" ID="{E64C563D-B63F-49F2-9104-E5120FE3ECB9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="environnement_garden_1_3" ID="{E3CF4AFA-DC0E-494B-92EF-DFC05390836F}" ShortID="838225167">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="environnement_garden_1_3" ID="{EF006B64-5351-4B78-B3D6-EB720479A623}" ShortID="482285619">
-											<Language>SFX</Language>
-											<AudioFile>CrackTree\environnement_garden_1.3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="environnement_garden_1_3" ID="{EF006B64-5351-4B78-B3D6-EB720479A623}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="environnement_garden_1_4" ID="{2A815A17-FAA1-4CB0-9C20-84622152AB37}" ShortID="399670292">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="environnement_garden_1_4" ID="{1CA428B6-AEE0-417C-82BE-D2AE810A1834}" ShortID="884049548">
-											<Language>SFX</Language>
-											<AudioFile>CrackTree\environnement_garden_1.4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="environnement_garden_1_4" ID="{1CA428B6-AEE0-417C-82BE-D2AE810A1834}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="environnement_garden_1_5" ID="{6F9C1059-F1BB-4DFB-9D96-BCB721B25C99}" ShortID="624619382">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{816C8B7B-BB1A-4941-81CD-FC3B3A30856B}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1570,6 +1925,20 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_6" ID="{6E1E522B-9855-4215-B3FA-4206CBDB4166}" ShortID="78776352">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{493EC952-8FE1-46BA-AE20-C8654168C0F4}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1589,6 +1958,23 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="environnement_garden_1_7" ID="{90C36200-2C13-406F-BD70-65510B4BF579}" ShortID="375158422">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AEED6962-C72C-4AC7-8E4B-EE5CC0BBF900}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1607,26 +1993,19 @@
 										<ActiveSource Name="environnement_garden_1_7" ID="{94D4C91D-A973-4BD4-BB01-96E2D8208ACE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="environnement_garden_1_8" ID="{D7183ABA-3651-4210-A830-CD46D0B16D2D}" ShortID="799204728">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="environnement_garden_1_8" ID="{01953CEF-4422-4585-9A52-01CB535B18F2}" ShortID="759961919">
-											<Language>SFX</Language>
-											<AudioFile>CrackTree\environnement_garden_1.8.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="environnement_garden_1_8" ID="{01953CEF-4422-4585-9A52-01CB535B18F2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="environnement_garden_1_9" ID="{12572552-EA48-436C-95BE-6EE4057BD56D}" ShortID="172161712">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1645,10 +2024,45 @@
 										<ActiveSource Name="environnement_garden_1_9" ID="{737EDF57-AA72-40BF-97E1-481048B9B1E7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="silence" ID="{4C475FD5-A5CA-4D8A-8E6B-436F76B2656C}" ShortID="541981724">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>90</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="silence" ID="{8BB1201A-2B7B-4FE0-B4EA-0FF4F22425FD}" ShortID="866395654">
+											<Language>SFX</Language>
+											<AudioFile>silence.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="91593671"/>
+											</ConvertedFileIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="silence" ID="{8BB1201A-2B7B-4FE0-B4EA-0FF4F22425FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="RockSlide" ID="{D5E6B739-C8E6-4B7F-A817-502A8EA15E63}" ShortID="454519531">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
@@ -1667,6 +2081,31 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="rock_slide_1_1" ID="{74A3116E-40FD-40F6-88E2-2543828E0E53}" ShortID="384293067">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{483B3B89-19D6-4F9C-9D12-3528DC85773A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="20"/>
+															<Property Name="Min" Type="Real64" Value="-20"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1686,6 +2125,31 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="rock_slide_1_2" ID="{BB46BC0C-8719-45C3-9719-6F65DC0398A7}" ShortID="479561492">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0964C455-AF04-49B6-B2FD-B811FB145D9C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1704,26 +2168,32 @@
 										<ActiveSource Name="rock_slide_1_2" ID="{C2ED1854-E76F-465F-B282-7698B4668E0F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="rock_slide_1_3" ID="{44E54E99-7104-4594-9C4F-23F67179C821}" ShortID="945253695">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="rock_slide_1_3" ID="{FE9FB34A-4EAC-49EB-81D5-4E9CF72072C0}" ShortID="313784180">
-											<Language>SFX</Language>
-											<AudioFile>RockSlide\rock_slide_1.3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="rock_slide_1_3" ID="{FE9FB34A-4EAC-49EB-81D5-4E9CF72072C0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="rock_slide_1_4" ID="{5FF791EE-B3F0-4F31-AA32-5400BD2F7BAF}" ShortID="950489975">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A8093522-852D-4A55-AA0E-9EC6D3BCE0C0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1742,7 +2212,26 @@
 										<ActiveSource Name="rock_slide_1_4" ID="{60770ABF-AC6B-419A-B511-9681E054166E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="rock_slide_1_5" ID="{F8EBCCC6-6CAC-4409-9454-73C30A6B8989}" ShortID="198795214">
+								<Sound Name="silence" ID="{21178597-7911-4EA1-A3D0-E8B9829688E0}" ShortID="940801829">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>1.5</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E332886B-4D94-4247-A99E-70B277D82456}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>80</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1752,39 +2241,63 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="rock_slide_1_5" ID="{D2C0F7E8-F269-4397-8844-73FD482F11EC}" ShortID="12872176">
+										<AudioFileSource Name="silence" ID="{D7D3B8B8-838C-4892-92CA-B410D1AEE4AD}" ShortID="731835344">
 											<Language>SFX</Language>
-											<AudioFile>RockSlide\rock_slide_1.5.wav</AudioFile>
+											<AudioFile>silence.wav</AudioFile>
+											<ConvertedFileIDList>
+												<File ID="91593671"/>
+											</ConvertedFileIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="rock_slide_1_5" ID="{D2C0F7E8-F269-4397-8844-73FD482F11EC}" Platform="Linked"/>
+										<ActiveSource Name="silence" ID="{D7D3B8B8-838C-4892-92CA-B410D1AEE4AD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<Sound Name="Fire" ID="{A6853310-4D92-4593-9206-97A5A3A15E08}" ShortID="349171024">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fire" ID="{7B6F437C-4DBE-4B19-A67D-3E55F21F68C6}" ShortID="195009776">
+									<Language>SFX</Language>
+									<AudioFile>Fire.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fire" ID="{7B6F437C-4DBE-4B19-A67D-3E55F21F68C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Menu" ID="{2E6AA2E4-D0DC-4A09-8382-E565DA31B0F8}" ShortID="18465473">
 					<ChildrenList>
-						<Sound Name="UI_menu2" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" ShortID="662688880">
+						<Sound Name="UI_menu1" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" ShortID="662688880">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{864880E2-40E0-4CB6-9F7A-1A935164D297}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="5"/>
-													<Property Name="Min" Type="Real64" Value="-5"/>
-												</PropertyList>
-											</Modifier>
+											<Modifier Name="" ID="{864880E2-40E0-4CB6-9F7A-1A935164D297}"/>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-12</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1804,6 +2317,45 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="UI_menu2" ID="{A6BEA9A7-6B4E-4219-8031-9378367A3457}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="UI_menu2" ID="{03702D6E-0EBB-4CF7-9ACE-6E5FE342615F}" ShortID="9434631">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{71296008-E185-4971-B772-D0BAAF60F8AE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="50"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UI_menu3" ID="{EA91C398-2BA6-4C6B-A26C-2F60FDE803F5}" ShortID="768914571">
+									<Language>SFX</Language>
+									<AudioFile>UI_menu3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="UI_menu3" ID="{EA91C398-2BA6-4C6B-A26C-2F60FDE803F5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

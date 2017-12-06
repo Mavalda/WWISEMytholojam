@@ -10,20 +10,6 @@
 						<State Name="Ruines" ID="{23E6E374-6139-466E-9572-75B519FB35AE}"/>
 						<State Name="Jardin" ID="{D38CD07E-D934-436A-A0C1-8E0DD40E5D53}"/>
 					</ChildrenList>
-					<TransitionList>
-						<Transition>
-							<StartState Name="Menu" ID="{28A0D4A6-B6A9-4DDC-8B40-5F7CA26E29C0}"/>
-							<EndState Name="Ruines" ID="{23E6E374-6139-466E-9572-75B519FB35AE}"/>
-							<Time>5</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-						<Transition>
-							<StartState Name="Ruines" ID="{23E6E374-6139-466E-9572-75B519FB35AE}"/>
-							<EndState Name="Jardin" ID="{D38CD07E-D934-436A-A0C1-8E0DD40E5D53}"/>
-							<Time>5</Time>
-							<IsShared>false</IsShared>
-						</Transition>
-					</TransitionList>
 				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>

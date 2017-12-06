@@ -10,6 +10,12 @@
 						<Switch Name="Temple" ID="{A5AB60E0-1ED7-40F9-92AE-2341C719B4C6}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Enigme" ID="{28475BA9-7C32-4F71-9C9E-2A5468DD06D6}">
+					<ChildrenList>
+						<Switch Name="true" ID="{50CBEA46-73AC-4790-9FBD-A449AD6CB1BD}"/>
+						<Switch Name="false" ID="{9B3FB826-4D04-47CC-8D33-9E1C29C4F047}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

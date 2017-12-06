@@ -38,6 +38,10 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Fire" ID="{A6853310-4D92-4593-9206-97A5A3A15E08}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="sound_blossoming_tree_1" ID="{CE5D7EDB-6143-4F77-85B4-E5B4D329C35B}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -62,8 +66,16 @@
 							<Position X="3" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="sound_statue_crying" ID="{1B1DDA3E-0BD3-4F60-B888-02BFEBD190E8}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="sound_stonewall_obstacle" ID="{B99DCF6F-2FF5-4767-A4E5-D3B11A4EF872}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Fog" ID="{5B3ADEAB-E480-4FAA-B49D-4E61C661946F}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="3" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="sign_singing_mode" ID="{BF0D3E3C-BA87-4992-AD10-D46643823155}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
@@ -78,7 +90,11 @@
 							<Position X="4" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="UI_menu2" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<ObjectRef Name="UI_menu2" ID="{03702D6E-0EBB-4CF7-9ACE-6E5FE342615F}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="UI_menu1" ID="{4690AC65-28B9-48AC-8B29-1C338A6BC689}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 							<Position X="5" Y="1"/>
 						</Module>
 						<Module>
