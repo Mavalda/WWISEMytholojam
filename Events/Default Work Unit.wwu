@@ -325,6 +325,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_environnement_running_stream" ID="{579177F6-6F4D-400F-B8EE-2B401B59C405}">
+					<ChildrenList>
+						<Action Name="" ID="{C62907EE-8C22-4500-9A73-821E51B56299}" ShortID="28747604">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="environnement_running_stream" ID="{4B8A43BC-0B2A-48A7-B972-680E1ECAC356}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_environnement_wind_strong" ID="{E9FC386D-50C1-4D99-8776-CB7E6F13CA93}">
+					<ChildrenList>
+						<Action Name="" ID="{6777F517-C8D0-4227-8C60-8193B6FDC893}" ShortID="454096974">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="environnement_wind_strong" ID="{53A721A3-AB7E-45B6-B481-443FF4D90121}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_environnement_wind_weak" ID="{B903D762-2C66-4AA8-B200-20FF533DFCFD}">
+					<ChildrenList>
+						<Action Name="" ID="{4B6C7F45-7870-411A-9B40-A700CC461670}" ShortID="758616505">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="environnement_wind_weak" ID="{8F43CBC2-9036-4D7E-B95F-84627D203027}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
