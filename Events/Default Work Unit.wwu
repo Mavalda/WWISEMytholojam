@@ -227,20 +227,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_sound_statue_crying" ID="{0F58A24C-E429-4C4D-87E3-D3AB46516E96}">
-					<ChildrenList>
-						<Action Name="" ID="{E99EF967-F365-428C-966D-154E9398093F}" ShortID="199908887">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="sound_statue_crying" ID="{BEF67CFA-8AA4-40F0-948B-0D03B9CFCCB5}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_sound_stonewall_obstacle" ID="{AF1EA2A7-A455-4D7C-BCA9-B1E9859C8283}">
 					<ChildrenList>
 						<Action Name="" ID="{22A025A3-F28E-4620-90FE-51DFDFE87A42}" ShortID="382534911">
@@ -320,20 +306,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="sound_successfull" ID="{EAB661AE-BCCB-481E-A089-5B9A89368CF6}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_UI_menu1" ID="{AD40A747-659E-4565-82FF-E0A9973F074A}">
-					<ChildrenList>
-						<Action Name="" ID="{100C8473-76F3-4836-949D-FF6A3283F505}" ShortID="28889436">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="UI_menu1" ID="{CA64B32F-9DB3-490E-9CD7-98C07FDAEEBF}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
