@@ -969,6 +969,7 @@
 						</SwitchContainer>
 						<Sound Name="sound_blossoming_tree_1" ID="{CE5D7EDB-6143-4F77-85B4-E5B4D329C35B}" ShortID="800641439">
 							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -976,6 +977,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -995,6 +999,7 @@
 						</Sound>
 						<Sound Name="sound_blossoming_tree_2" ID="{3FB18418-E073-4C35-BEE0-51C11313EE1E}" ShortID="957746468">
 							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>3</Value>
@@ -1002,6 +1007,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1021,6 +1029,7 @@
 						</Sound>
 						<Sound Name="sound_dead_activated" ID="{BC030F18-D66E-4FAE-B960-9E7B720E1B51}" ShortID="63611688">
 							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -1028,6 +1037,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1047,6 +1059,7 @@
 						</Sound>
 						<Sound Name="sound_dead_disactivated" ID="{887096CC-745F-425E-9488-32BC549CB1BF}" ShortID="606115840">
 							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -1054,6 +1067,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1072,7 +1088,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sound_obstacle_door_opens" ID="{7C806C2F-ACD2-45FA-9902-7129F66EE8C2}" ShortID="108547282">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1105,6 +1127,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -1112,6 +1135,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1131,6 +1157,7 @@
 						</Sound>
 						<Sound Name="sound_stonewall_obstacle" ID="{B99DCF6F-2FF5-4767-A4E5-D3B11A4EF872}" ShortID="850936584">
 							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>4</Value>
@@ -1138,6 +1165,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1156,7 +1186,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sound_stonewall_obstacle2" ID="{24035192-4EB0-4171-824C-CE136EF68D43}" ShortID="948488495">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1189,6 +1225,7 @@
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -1196,6 +1233,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1214,7 +1254,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sound_statue_crying" ID="{1B1DDA3E-0BD3-4F60-B888-02BFEBD190E8}" ShortID="698179438">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1239,8 +1285,12 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1259,7 +1309,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="sound_pressure" ID="{B91ED8C5-E8E6-4CB3-96EA-4FCFEF4085F1}" ShortID="376206329">
+							<PropertyList>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1284,8 +1340,12 @@
 						<Sound Name="environnement_running_stream" ID="{4B8A43BC-0B2A-48A7-B972-680E1ECAC356}" ShortID="564999726">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1364,51 +1424,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{EDFCB0B3-C73A-479B-9AFB-A463FDDA7A23}" ShortID="60173664">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{6A6E24CA-4B41-4BB5-AEDA-C059BE101898}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
@@ -1598,6 +1614,14 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{B66DAE10-0FBB-4F58-9788-005DB7324C0B}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-4.05231403988182E-15"/>
+										<Property Name="PanY" Type="Real64" Value="-4.77676969708975E-15"/>
+									</PropertyList>
+								</Panner>
+							</PositioningInfo>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="CrackTree" ID="{DDD355FA-D7C9-4A84-BB6F-51C5A747C095}" ShortID="812763030">
 							<PropertyList>
@@ -2258,6 +2282,7 @@
 						<Sound Name="Fire" ID="{A6853310-4D92-4593-9206-97A5A3A15E08}" ShortID="349171024">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-2</Value>
@@ -2265,6 +2290,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
