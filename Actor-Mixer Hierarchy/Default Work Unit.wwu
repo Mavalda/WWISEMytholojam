@@ -165,7 +165,13 @@
 					</ChildrenList>
 				</Folder>
 				<ActorMixer Name="Ambiance" ID="{7A9F790F-C462-4384-A533-14E4794DDF21}" ShortID="1715815">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 						</Reference>
@@ -184,6 +190,7 @@
 								<Property Name="OverrideEffect" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="RenderEffect0" Type="bool">
 									<ValueList>
@@ -692,7 +699,6 @@
 						<Sound Name="sound_cerberus" ID="{49641EDD-092D-44C9-AD20-E90999666A6C}" ShortID="560602901">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -723,7 +729,9 @@
 						</Sound>
 						<Sound Name="environnement_wind_weak" ID="{8F43CBC2-9036-4D7E-B95F-84627D203027}" ShortID="781169088">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -750,13 +758,12 @@
 						</Sound>
 						<Sound Name="environnement_running_stream" ID="{4B8A43BC-0B2A-48A7-B972-680E1ECAC356}" ShortID="564999726">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -776,7 +783,9 @@
 						</Sound>
 						<Sound Name="environnement_wind_strong" ID="{53A721A3-AB7E-45B6-B481-443FF4D90121}" ShortID="567353846">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>2</Value>
@@ -805,6 +814,7 @@
 							<PropertyList>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -813,6 +823,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
@@ -1190,7 +1203,6 @@
 						<Sound Name="fire" ID="{A6853310-4D92-4593-9206-97A5A3A15E08}" ShortID="349171024">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1221,7 +1233,9 @@
 						</Sound>
 						<Sound Name="music_jardin" ID="{26325C9D-1686-47B3-BB13-9A15608085C0}" ShortID="143510700">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1246,7 +1260,9 @@
 						</Sound>
 						<Sound Name="music_ruines" ID="{00BABDE2-F869-415C-A280-EA803AC49CE9}" ShortID="634773061">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -1273,7 +1289,13 @@
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Bruitage" ID="{0F883629-63B4-474C-A50B-6B414E2E2197}" ShortID="669450810">
+					<PropertyList>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 						</Reference>
@@ -1886,7 +1908,6 @@
 						</SwitchContainer>
 						<Sound Name="sound_blossoming_tree_2" ID="{237C05BB-C181-4FBF-B9A9-E09A8EEF6838}" ShortID="169330640">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1920,7 +1941,6 @@
 						</Sound>
 						<Sound Name="sound_stonewall_obstacle" ID="{B5BC5141-9AD5-40A4-B2AF-C670C31477E9}" ShortID="9384722">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1954,7 +1974,6 @@
 						</Sound>
 						<Sound Name="sound_blossoming_tree_1" ID="{E8618E36-9365-4C11-B438-241B890DFD9D}" ShortID="226804586">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1988,7 +2007,6 @@
 						</Sound>
 						<Sound Name="sound_pressure" ID="{FC02859A-9269-496F-A0B4-D0A09E909C0B}" ShortID="423400938">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -2035,7 +2053,6 @@
 						</Sound>
 						<Sound Name="sound_statue_crying" ID="{21F9628C-99D9-4B8F-9239-A45D1EF6804D}" ShortID="612012120">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2064,7 +2081,6 @@
 						</Sound>
 						<Sound Name="sound_obstacle_door_opens" ID="{D3632187-9387-430A-BFDA-1760DBA80CF2}" ShortID="763438263">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2098,7 +2114,6 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2131,7 +2146,6 @@
 						</Sound>
 						<Sound Name="sound_dead_activated" ID="{197F8970-8BF2-450D-87AC-7FEBB8319C0E}" ShortID="936540685">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -2165,7 +2179,6 @@
 						</Sound>
 						<Sound Name="sound_dead_disactivated" ID="{4D3F9D30-F717-4D4E-BEF9-2446C062DA1E}" ShortID="329618274">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -2199,7 +2212,6 @@
 						</Sound>
 						<Sound Name="sound_stonewall_obstacle2" ID="{B60CCB7D-41B4-465E-81EB-9FF8BB3D9422}" ShortID="325735446">
 							<PropertyList>
-								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2228,6 +2240,7 @@
 						</Sound>
 						<Sound Name="Fog" ID="{C5D32A12-9D95-40B9-9C98-F12EDDC56548}" ShortID="974107295">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -2250,9 +2263,6 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" WorkUnitID="{B36DE237-B7ED-4538-8C6D-135DE4CC9CAC}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
