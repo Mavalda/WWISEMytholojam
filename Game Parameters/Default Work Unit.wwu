@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{0209FC7F-1DA8-4C33-9A09-984B7FAB3BD2}" SchemaVersion="80">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{0209FC7F-1DA8-4C33-9A09-984B7FAB3BD2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{0209FC7F-1DA8-4C33-9A09-984B7FAB3BD2}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Enigme" ID="{16134CCA-5060-46A1-8EF8-30932F6B6736}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
+						<Property Name="SlewRateDown" Type="Real64" Value="200"/>
+						<Property Name="SlewRateUp" Type="Real64" Value="200"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

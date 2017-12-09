@@ -3,7 +3,43 @@
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ChildrenList>
+						<Bus Name="Ambiance" ID="{858997DF-7E5D-4544-A002-7507FA9DB64C}">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{8CB681F2-D8B3-4A72-9423-2F17B7C8AEA8}" ShortID="349072490">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Enigme" ID="{16134CCA-5060-46A1-8EF8-30932F6B6736}" WorkUnitID="{0209FC7F-1DA8-4C33-9A09-984B7FAB3BD2}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{683695E9-1F2E-4D6A-BEE8-D99D9C95BC09}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+						</Bus>
+						<Bus Name="SFX" ID="{D54C27EF-2E94-49DE-B9AF-FE1ACBF0A783}"/>
+					</ChildrenList>
+				</Bus>
 				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
 				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
 			</ChildrenList>
