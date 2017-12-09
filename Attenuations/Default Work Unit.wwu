@@ -47,6 +47,9 @@
 					</CurveUsageInfoList>
 				</Attenuation>
 				<Attenuation Name="Attenuation globale" ID="{5A90596B-9F56-4790-9C55-7127CFECEE1C}" ShortID="832943527">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="10000"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -61,7 +64,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>10000</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
