@@ -1210,7 +1210,7 @@
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-4</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2269,6 +2269,13 @@
 						<Sound Name="Fog" ID="{C5D32A12-9D95-40B9-9C98-F12EDDC56548}" ShortID="974107295">
 							<PropertyList>
 								<Property Name="EnablePositioning" Type="bool" Value="False"/>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
@@ -2284,6 +2291,11 @@
 									</ModifierList>
 								</Property>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>6</Value>
@@ -2446,6 +2458,12 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="true" ID="{7AC800E4-CA58-4C27-8CE5-47B800C7DBED}" ShortID="708025194">
 							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2523,7 +2541,7 @@
 										<ActiveSource Name="note_3_mi" ID="{E09BB993-7AD7-469C-A05F-F19B4F1A0822}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="note_4_ré" ID="{2AAFDCD9-44AA-4D59-BCE0-B6603E7F47C3}" ShortID="717009109">
+								<Sound Name="note_4_re" ID="{2AAFDCD9-44AA-4D59-BCE0-B6603E7F47C3}" ShortID="717009109">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -2558,7 +2576,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
