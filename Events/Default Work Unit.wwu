@@ -488,6 +488,28 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{4A21C420-986D-46D3-B7D9-FBE9DC7FDFB0}" ShortID="341595620">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_jardin" ID="{26325C9D-1686-47B3-BB13-9A15608085C0}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A53819DC-6FB6-4627-AA4E-D1A3A95D2798}" ShortID="481328923">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="music_ruines" ID="{00BABDE2-F869-415C-A280-EA803AC49CE9}" WorkUnitID="{D59B2348-E78F-4796-9496-EF2047F30841}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Stop_music_menu" ID="{F3D240D3-BA6D-478E-9099-A174D49B0B16}">
@@ -548,6 +570,7 @@
 						<Action Name="" ID="{0000DAD7-95F4-49EA-B5ED-A9CCE141E7AF}" ShortID="1025257977">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -559,6 +582,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -598,6 +622,7 @@
 						<Action Name="" ID="{94C57258-440C-4AA4-9FE7-C2F57E44FD0F}" ShortID="404221771">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -609,6 +634,7 @@
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
 								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
