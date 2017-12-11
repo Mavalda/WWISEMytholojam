@@ -2411,6 +2411,7 @@
 										<Value>1</Value>
 									</ValueList>
 								</Property>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
 									<ValueList>
 										<Value>True</Value>
@@ -2422,7 +2423,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{515FF3DC-57E3-4634-A254-71A437C0CEB1}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
+									<ObjectRef Name="Ambiance" ID="{858997DF-7E5D-4544-A002-7507FA9DB64C}" WorkUnitID="{DA210111-97FD-41A5-8AD7-BC8CDDEB153E}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
