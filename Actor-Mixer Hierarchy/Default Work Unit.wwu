@@ -2104,6 +2104,8 @@
 						</Sound>
 						<Sound Name="sound_obstacle_door_opens" ID="{D3632187-9387-430A-BFDA-1760DBA80CF2}" ShortID="763438263">
 							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
