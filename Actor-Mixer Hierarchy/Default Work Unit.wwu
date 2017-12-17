@@ -1931,10 +1931,10 @@
 						</SwitchContainer>
 						<Sound Name="sound_blossoming_tree_2" ID="{237C05BB-C181-4FBF-B9A9-E09A8EEF6838}" ShortID="169330640">
 							<PropertyList>
-								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>3</Value>
+										<Value>-10</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
